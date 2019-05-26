@@ -64,7 +64,7 @@ class Machine:
         self.coins = {}
         for c in self.coin_types:
             self.coins[c] = {
-                'owned': 0,
+                'owned': 100,
                 'inserted': 0
             }
 
