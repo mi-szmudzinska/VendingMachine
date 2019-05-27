@@ -122,9 +122,7 @@ class Machine:
             temp_dict[key] = value['owned']
             temp_dict[key] += value['inserted']
 
-        past_dict = {
-            0: {}
-        }
+        past_dict = {0: {} }
         for i in range(1, change + 1):
             for coin in self.coin_types:
                 rest = i - coin
